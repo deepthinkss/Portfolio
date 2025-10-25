@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    line-height: 1.6;
+    background: #000000;
+    color: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', 'JetBrains Mono', monospace;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+}
+
+@layer utilities {
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .robotic-border {
+    position: relative;
+  }
+
+  .robotic-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 30%, #ffffff 50%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .robotic-border:hover::before {
+    opacity: 0.1;
+  }
+
+  .glitch-text {
+    position: relative;
+    color: #ffffff;
+    font-weight: 800;
+  }
+
+  .glitch-text::before,
+  .glitch-text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .glitch-text::before {
+    animation: glitch-1 0.5s infinite;
+    color: #ffffff;
+    z-index: -1;
+  }
+
+  .glitch-text::after {
+    animation: glitch-2 0.5s infinite;
+    color: #ffffff;
+    z-index: -2;
+  }
+
+  .terminal-cursor::after {
+    content: '|';
+    animation: blink 1s infinite;
+    color: #ffffff;
+  }
+}
+
+@keyframes glitch-1 {
+  0%, 14%, 15%, 49%, 50%, 99%, 100% {
+    transform: translate(0);
+  }
+  15%, 49% {
+    transform: translate(-2px, 0);
+  }
+}
+
+@keyframes glitch-2 {
+  0%, 20%, 21%, 62%, 63%, 99%, 100% {
+    transform: translate(0);
+  }
+  21%, 62% {
+    transform: translate(2px, 0);
+  }
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
+}
+
+/* Form focus styles */
+input:focus, textarea:focus {
+  outline: none;
+}
+
+/* Dark mode styles */
+.dark {
+  color-scheme: dark;
+}
