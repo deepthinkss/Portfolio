@@ -59,13 +59,13 @@ const Navigation: React.FC = () => {
                 {item.label}
               </button>
             ))}
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 text-white hover:text-gray-300 transition-colors duration-200 border border-white/30 hover:border-white/60"
               aria-label="Toggle theme"
             >
               {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile Navigation */}

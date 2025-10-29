@@ -37,12 +37,17 @@ const Resume: React.FC = () => {
               </h2>
             </div>
             
-            <button className="group border-2 border-white text-white px-6 py-3 font-mono font-bold tracking-widest hover:bg-white hover:text-black transition-all duration-300 robotic-border w-full">
+            <a 
+              href="/assets/DeepThakurResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group border-2 border-white text-white px-6 py-3 font-mono font-bold tracking-widest hover:bg-white hover:text-black transition-all duration-300 robotic-border w-full inline-block no-underline"
+            >
               <div className="flex items-center justify-center space-x-2">
                 <Download className="w-5 h-5" />
                 <span>[DOWNLOAD_PDF]</span>
               </div>
-            </button>
+            </a>
 
             <div className="border border-white/30 p-4 bg-black/50">
               <div className="flex items-center space-x-2 mb-4">
@@ -115,10 +120,10 @@ const Resume: React.FC = () => {
               </div>
               
               <div className="mt-8">
-                <h4 className="text-lg font-black text-white font-mono tracking-wider mb-4">
+                {/* <h4 className="text-lg font-black text-white font-mono tracking-wider mb-4">
                   [CERTIFICATIONS]
-                </h4>
-                <div className="space-y-4">
+                </h4> */}
+                {/* <div className="space-y-4">
                   <div className="border border-white/20 p-4 bg-black/30">
                     <div className="text-white/80 font-mono text-sm">
                       • GOOGLE_CLOUD_COMPUTING_FOUNDATION_–_CREDLY_BADGE
@@ -128,8 +133,8 @@ const Resume: React.FC = () => {
                     <div className="text-white/80 font-mono text-sm">
                       • ORACLE_LEARNING_EXPLORER_CERTIFICATION_–_ORACLE
                     </div>
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div> */}
               </div>
             </div>
           </div>

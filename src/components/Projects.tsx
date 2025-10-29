@@ -9,6 +9,7 @@ const Projects: React.FC = () => {
       title: 'EXPENSE TRACKER APP',
       description: 'BUILT AN EXPENSE TRACKING APP FOR ANDROID USING REACT NATIVE AND EXPO. USED REDUX FOR STATE MANAGEMENT AND ASYNCSTORAGE FOR PERSISTENCE. BOOSTED USER ENGAGEMENT BY 25% THROUGH REAL-TIME SYNC.',
       techStack: ['REACT NATIVE', 'REDUX', 'ASYNCSTORAGE', 'EXPO'],
+      liveDemo:'https://expo.dev/@deepthinkss/ExpenseTrackerApp',
       githubRepo: 'https://github.com/deepthinkss',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
@@ -26,6 +27,16 @@ const Projects: React.FC = () => {
       title: 'HUFFMAN_FILE_COMPRESSION',
       description: 'IMPLEMENTED HUFFMAN CODING ALGORITHM FOR FILE COMPRESSION/DECOMPRESSION. ACHIEVED 40% AVERAGE REDUCTION IN FILE SIZE WHILE PRESERVING SPEED AND ACCURACY.',
       techStack: ['C++', 'ALGORITHMS', 'DATA STRUCTURES'],
+      liveDemo:'',
+      githubRepo: 'https://github.com/deepthinkss',
+      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      id: 4,
+      title: 'Hyperlocal Skill-Sharing Network',
+      description: 'IMPLEMENTED HUFFMAN CODING ALGORITHM FOR FILE COMPRESSION/DECOMPRESSION. ACHIEVED 40% AVERAGE REDUCTION IN FILE SIZE WHILE PRESERVING SPEED AND ACCURACY.',
+      techStack: ['C++', 'ALGORITHMS', 'DATA STRUCTURES'],
+      liveDemo:'',
       githubRepo: 'https://github.com/deepthinkss',
       image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600'
     }

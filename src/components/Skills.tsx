@@ -200,7 +200,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
+        {/* <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="border border-white/30 p-6 text-center bg-black/50">
             <div className="text-4xl font-black text-white font-mono mb-2">3</div>
             <div className="text-white/60 font-mono text-sm tracking-wider">PROJECTS_COMPLETED</div>
@@ -217,7 +217,7 @@ const Skills: React.FC = () => {
             <div className="text-4xl font-black text-white font-mono mb-2">2</div>
             <div className="text-white/60 font-mono text-sm tracking-wider">CERTIFICATIONS</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

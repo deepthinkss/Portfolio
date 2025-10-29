@@ -91,6 +91,15 @@ const Contact: React.FC = () => {
                 >
                   <Linkedin className="w-6 h-6" />
                 </a>
+                <a
+                  href="https://x.com/deepthakur2718"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-white/50 p-3 text-white hover:bg-white hover:text-black transition-all duration-300 robotic-border"
+                  aria-label="X (Twitter)"
+                >
+                  <Twitter className="w-6 h-6" />
+                </a>
               </div>
             </div>
           </div>

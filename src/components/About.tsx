@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div className="space-y-8">
             <div className="border border-white/30 p-1">
-              <h2 className="text-4xl font-black text-white font-mono tracking-widest bg-white text-black p-4">
+              <h2 className="text-4xl font-black text-black font-mono tracking-widest bg-white text-black p-4">
                 [ABOUT_ME]
               </h2>
             </div>
@@ -41,7 +41,7 @@ const About: React.FC = () => {
 
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="border border-white/30 p-4 text-center bg-black/50">
-                <div className="text-3xl font-black text-white font-mono mb-2">3</div>
+                <div className="text-3xl font-black text-white font-mono mb-2">8+</div>
                 <div className="text-sm text-white/60 font-mono tracking-wider">PROJECTS</div>
               </div>
               <div className="border border-white/30 p-4 text-center bg-black/50">
