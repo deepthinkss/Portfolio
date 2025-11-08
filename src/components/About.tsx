@@ -60,7 +60,7 @@ const About: React.FC = () => {
               <div className="border-4 border-white p-4 bg-black">
                 <div className="w-80 h-80 bg-white/10 border-2 border-white/30 flex items-center justify-center">
                   <img
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="/assets/profilepic.png"
                     alt="Deep Thakur"
                     className="w-72 h-72 object-cover filter grayscale"
                   />
