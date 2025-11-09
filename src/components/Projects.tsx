@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
       techStack: ['C++', 'ALGORITHMS', 'DATA STRUCTURES'],
       liveDemo:'',
       githubRepo: 'https://github.com/deepthinkss',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://images.pexels.com/photos/34155611/pexels-photo-34155611.jpeg?_gl=1*3d9cop*_ga*OTAxNTc5MjI1LjE3NjI2NjAyMzI.*_ga_8JE65Q40S6*czE3NjI2NjAyMzEkbzEkZzEkdDE3NjI2NjAyMzUkajU2JGwwJGgw'
     }
   ];
 
