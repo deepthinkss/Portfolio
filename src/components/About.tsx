@@ -1,5 +1,4 @@
 import React from 'react';
-import { User, MapPin, Calendar, Award } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
@@ -17,24 +16,27 @@ const About: React.FC = () => {
               <div className="border border-white/20 p-6 bg-black/50">
                 <div className="text-green-400 mb-2">// SYSTEM INFORMATION</div>
                 <p className="text-white/80 leading-relaxed">
-                  ENTHUSIASTIC COMPUTER ENGINEERING STUDENT WITH STRONG FOUNDATIONS IN DATA STRUCTURES, 
-                  ALGORITHMS, AND C++. EXPERIENCE IN BUILDING MOBILE AND BACKEND APPLICATIONS.
+                  COMPUTER ENGINEERING STUDENT WITH A STRONG FOUNDATION IN DATA STRUCTURES,
+                  ALGORITHMS, C++, AND FULL-STACK PRODUCT THINKING. FOCUSED ON BUILDING PRACTICAL
+                  WEB AND MOBILE APPLICATIONS THAT ARE RELIABLE, RESPONSIVE, AND EASY TO USE.
                 </p>
               </div>
               
               <div className="border border-white/20 p-6 bg-black/50">
                 <div className="text-green-400 mb-2">// CORE FUNCTIONS</div>
                 <p className="text-white/80 leading-relaxed">
-                  INTERESTED IN PROBLEM SOLVING AND EFFECTIVE CONTRIBUTION TO COLLABORATIVE 
-                  DEVELOPMENT ENVIRONMENTS. SPECIALIZED IN APP DEVELOPMENT AND WEB TECHNOLOGIES.
+                  SKILLED IN REACT, REACT NATIVE, PYTHON, SQL, AND MODERN DEVELOPMENT WORKFLOWS.
+                  ACTIVELY EXPANDING INTO AI-ASSISTED DEVELOPMENT, PROMPT ENGINEERING, AND
+                  INTELLIGENT FEATURES THAT IMPROVE REAL-WORLD USER EXPERIENCES.
                 </p>
               </div>
               
               <div className="border border-white/20 p-6 bg-black/50">
                 <div className="text-green-400 mb-2">// ADDITIONAL PROCESSES</div>
                 <p className="text-white/80 leading-relaxed">
-                  CURRENTLY PURSUING BACHELOR OF ENGINEERING IN COMPUTER ENGINEERING AT SINHGAD COLLEGE 
-                  OF ENGINEERING, PUNE. CGPA: 7.68/10 (2021-2025).
+                  CURRENTLY PURSUING A BACHELOR OF ENGINEERING IN COMPUTER ENGINEERING AT SINHGAD
+                  COLLEGE OF ENGINEERING, PUNE. MOTIVATED BY PROBLEM SOLVING, CLEAN IMPLEMENTATION,
+                  AND COLLABORATIVE ENGINEERING ENVIRONMENTS.
                 </p>
               </div>
             </div>

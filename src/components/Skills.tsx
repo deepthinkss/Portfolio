@@ -151,6 +151,42 @@ const Skills: React.FC = () => {
               </div>
             </div>
           </div>
+
+          {/* AI Skills */}
+          <div className="border border-white/30 bg-black/80 font-mono md:col-span-2 lg:col-span-1">
+            <div className="border-b border-white/20 p-3 bg-white/5">
+              <div className="flex items-center space-x-2">
+                <Terminal className="w-4 h-4 text-green-400" />
+                <span className="text-green-400 text-sm">$ cat ai_skills</span>
+              </div>
+            </div>
+            <div className="p-4 space-y-2">
+              <div className="flex items-center space-x-2">
+                <span className="text-orange-400">-</span>
+                <span className="text-white/80 text-sm">Prompt Engineering</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-orange-400">-</span>
+                <span className="text-white/80 text-sm">Generative AI Tools</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-orange-400">-</span>
+                <span className="text-white/80 text-sm">AI-Assisted Development</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-orange-400">-</span>
+                <span className="text-white/80 text-sm">Machine Learning Basics</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-orange-400">-</span>
+                <span className="text-white/80 text-sm">LLM Integration Basics</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-orange-400">-</span>
+                <span className="text-white/80 text-sm">Python for AI Workflows</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Certifications Section */}
@@ -174,7 +210,7 @@ const Skills: React.FC = () => {
                     <h3 className="text-white font-bold text-sm">Google Cloud Computing Foundation</h3>
                   </div>
                   <p className="text-white/60 text-xs mb-3">Credly Badge</p>
-                  <div className="text-green-400 text-xs">✓ VERIFIED</div>
+                  <div className="text-green-400 text-xs">VERIFIED</div>
                 </div>
               </div>
             </div>
@@ -193,7 +229,7 @@ const Skills: React.FC = () => {
                     <h3 className="text-white font-bold text-sm">Oracle Learning Explorer Certification</h3>
                   </div>
                   <p className="text-white/60 text-xs mb-3">Oracle</p>
-                  <div className="text-green-400 text-xs">✓ VERIFIED</div>
+                  <div className="text-green-400 text-xs">VERIFIED</div>
                 </div>
               </div>
             </div>
