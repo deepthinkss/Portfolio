@@ -154,8 +154,9 @@ Let’s build the future while honoring the past.
 
 ```
 
----
+
 
 If you like, I can **generate a fully-formatted README.md file** ready to drop into your GitHub repo, or adapt it to include screenshots (with markdown image links) of your projects (SmartHome, Expense Tracker, BMI Calculator). Want me to do that?
 ::contentReference[oaicite:1]{index=1}
 ```
+Need to update all the project and the md for the repo 
